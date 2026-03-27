@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mateus Stecca | Portfólio</title>
+  <meta
+    name="description"
+    content="Portfólio de Mateus Stecca, estudante de Engenharia de Software com projetos em Java, HTML, CSS e JavaScript."
+  />
+
+  <link rel="stylesheet" href="style.css" />
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+</head>
+<body>
+
+  <header class="header">
+    <a href="#home" class="logo">Mateus<span>.</span></a>
+
+    <nav class="navbar" id="navbar">
+      <a href="#home">Início</a>
+      <a href="#about">Sobre</a>
+      <a href="#skills">Tecnologias</a>
+      <a href="#projects">Projetos</a>
+      <a href="#education">Formação</a>
+      <a href="#contact">Contato</a>
+    </nav>
+
+    <div class="menu-btn" id="menu-btn" aria-label="Abrir menu" aria-expanded="false">
+      <i class="fas fa-bars"></i>
+    </div>
+  </header>
+
+  <section class="home" id="home">
+    <div class="home-content reveal">
+      <p class="home-intro">Olá, eu sou</p>
+      <h1>Mateus Stecca</h1>
+      <h3>Estudante de <span>Engenharia de Software</span></h3>
+
+      <p class="home-text">
+        Em formação na área de tecnologia, com foco em desenvolvimento de software,
+        construção de projetos práticos e evolução constante como desenvolvedor.
+      </p>
+
+      <div class="social-icons">
+        <a
+          href="https://github.com/MateusStecca"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="GitHub"
+        >
+          <i class="fab fa-github"></i>
+        </a>
+
+        <!-- TROQUE PELO SEU LINKEDIN REAL -->
+        <a
+          href="https://www.linkedin.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="LinkedIn"
+        >
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+
+        <a href="mailto:mateuscoutinho.stecca@gmail.com" aria-label="Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
+
+      <div class="home-buttons">
+        <a href="#projects" class="btn">Ver Projetos</a>
+        <a href="#contact" class="btn btn-outline">Contato</a>
+      </div>
+    </div>
+
+    <div class="home-image reveal">
+      <div class="image-circle">
+        <span>MS</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <h2 class="heading reveal">Sobre Mim</h2>
+
+    <div class="about-card reveal">
+      <p>
+        Sou estudante de Engenharia de Software, com formação técnica em
+        Eletroeletrônica pelo SENAI e foco em desenvolvimento de software.
+        Tenho conhecimentos em Java, JavaScript, HTML, CSS e lógica de programação.
+        Estou em busca de uma oportunidade de estágio para aplicar meus conhecimentos,
+        aprender com profissionais da área e contribuir com projetos reais.
+      </p>
+    </div>
+  </section>
+
+  <section class="skills" id="skills">
+    <h2 class="heading reveal">Tecnologias</h2>
+
+    <div class="skills-grid">
+      <div class="skill-box reveal">
+        <div class="skill-icon">
+          <i class="fab fa-java"></i>
+        </div>
+        <span>Java</span>
+        <p>Orientação a objetos, estruturação de projetos e lógica de programação.</p>
+        <div class="bar">
+          <div style="width: 80%;"></div>
+        </div>
+      </div>
+
+      <div class="skill-box reveal">
+        <div class="skill-icon">
+          <i class="fab fa-js"></i>
+        </div>
+        <span>JavaScript</span>
+        <p>Manipulação do DOM, interatividade e recursos visuais para aplicações web.</p>
+        <div class="bar">
+          <div style="width: 70%;"></div>
+        </div>
+      </div>
+
+      <div class="skill-box reveal">
+        <div class="skill-icon">
+          <i class="fab fa-html5"></i>
+        </div>
+        <span>HTML5</span>
+        <p>Estrutura semântica, organização de conteúdo e boas práticas para páginas web.</p>
+        <div class="bar">
+          <div style="width: 85%;"></div>
+        </div>
+      </div>
+
+      <div class="skill-box reveal">
+        <div class="skill-icon">
+          <i class="fab fa-css3-alt"></i>
+        </div>
+        <span>CSS3</span>
+        <p>Responsividade, estilização moderna, layout e animações suaves.</p>
+        <div class="bar">
+          <div style="width: 80%;"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <h2 class="heading reveal">Projetos</h2>
+
+    <div class="projects-container">
+      <div class="project-card reveal">
+        <div class="project-top">
+          <div class="project-icon">
+            <i class="fas fa-building-columns"></i>
+          </div>
+          <span class="project-tag">Java</span>
+        </div>
+
+        <div class="project-info">
+          <h3>Sistema Bancário em Java</h3>
+          <p>
+            Projeto desenvolvido em Java com foco em orientação a objetos,
+            organização em classes e simulação de operações bancárias como
+            crédito, débito e controle de saldo.
+          </p>
+        </div>
+
+        <div class="project-links">
+          <a
+            href="https://github.com/MateusStecca/Sistema-Bancario"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn project-btn"
+          >
+            Ver no GitHub
+          </a>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-top">
+          <div class="project-icon">
+            <i class="fas fa-laptop-code"></i>
+          </div>
+          <span class="project-tag">HTML / CSS / JS</span>
+        </div>
+
+        <div class="project-info">
+          <h3>Portfólio Web</h3>
+          <p>
+            Site pessoal criado para apresentar meus projetos, tecnologias,
+            formação e formas de contato, com layout moderno, responsivo e
+            foco em apresentação profissional.
+          </p>
+        </div>
+
+        <div class="project-links">
+          <a
+            href="https://github.com/MateusStecca"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn project-btn"
+          >
+            Ver no GitHub
+          </a>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-top">
+          <div class="project-icon">
+            <i class="fas fa-dragon"></i>
+          </div>
+          <span class="project-tag">API / Web</span>
+        </div>
+
+        <div class="project-info">
+          <h3>Projeto com API Pokémon</h3>
+          <p>
+            Aplicação web integrada com API para consumo e exibição de dados,
+            reforçando conhecimentos em JavaScript, requisições, manipulação
+            do DOM e construção de interfaces interativas.
+          </p>
+        </div>
+
+        <div class="project-links">
+          <a
+            href="https://github.com/MateusStecca"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn project-btn"
+          >
+            Ver no GitHub
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="education" id="education">
+    <h2 class="heading reveal">Formação</h2>
+
+    <div class="timeline reveal">
+      <div class="timeline-item">
+        <h3>Engenharia de Software</h3>
+        <p>Estácio • 2024 - 2028</p>
+      </div>
+
+      <div class="timeline-item">
+        <h3>Técnico em Eletroeletrônica</h3>
+        <p>SENAI • 2022 - 2023</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2 class="heading reveal">Contato</h2>
+
+    <div class="contact-card reveal">
+      <a class="contact-item contact-link" href="mailto:mateuscoutinho.stecca@gmail.com">
+        <i class="fas fa-envelope"></i>
+        <span>mateuscoutinho.stecca@gmail.com</span>
+      </a>
+
+      <a class="contact-item contact-link" href="tel:+5519999191787">
+        <i class="fas fa-phone"></i>
+        <span>(19) 99919-1787</span>
+      </a>
+
+      <a
+        class="contact-item contact-link"
+        href="https://github.com/MateusStecca"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i class="fab fa-github"></i>
+        <span>github.com/MateusStecca</span>
+      </a>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
